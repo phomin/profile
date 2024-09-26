@@ -41,7 +41,7 @@ function Hero() {
             variant="lead"
             className="mb-4 !text-gray-500 md:pr-16 xl:pr-28"
           >
-            I&apos;m Phomin Phrosri, a passionate web developer based in Thai. Here,
+            I&apos;m Phomin Phrosri, a passionate web developer based. Here,
             you&apos;ll get a glimpse of my journey in the world of web
             development, where creativity meets functionality.
           </Typography>
@@ -51,9 +51,8 @@ function Hero() {
             My Resume
           </Typography>
           <Typography className="mb-4 mt-3 w-9/12 font-normal !text-gray-500"  variant="lead">
-            Highly skilled and creative Web Developer with 5+ years of
-            experience in crafting visually stunning and functionally robust
-            websites and web applications.
+          In the future, to become a full-stack developer, I started as a front-end developer by myself from online platforms. I learned about tools, web design, and creating websites for CRUD data.
+          To practice doing mini projects by myself, I am committed to improving myself, being ready to work in a team, and learning new experiences.
           </Typography>
           <Button
             variant="text"
@@ -79,36 +78,24 @@ function Hero() {
           className="h-[36rem] w-full rounded-xl object-cover"
         />
       </div>
-      <Dialog size="xl" open={show} handler={handleClick}>
+      <Dialog size="xxl" open={show} handler={handleClick} className="bg-blue-gray-600">
         <DialogHeader className="justify-between">
           <div className="flex items-center gap-3">
           
-            <div className="-mt-px flex flex-col">
-              <Typography
-                variant="small"
-                color="blue-gray"
-                className="font-medium"
-              >
-                Phomin Phromsri
-              </Typography>
-              <Typography
-                variant="small"
-                color="gray"
-                className="text-xs font-normal"
-              >
-                @
-              </Typography>
+            <div className=" flex flex-col">
+              <Button onClick={handleClick}>
+                BACK
+              </Button>
+              
             </div>
           </div>
-          <div className="flex items-center gap-2">
-           
-          </div>
+        
         </DialogHeader>
-        <DialogBody>
+        <DialogBody className="flex justify-center">
           <img
             alt="nature"
-            className="h-[48rem] w-full rounded-lg object-cover object-center"
-            src="/image/avarta1.jpg"
+            className="h-fit w-1/3  rounded-lg object-cover object-center"
+            src="/image/resume.png"
           />
         </DialogBody>
         <DialogFooter className="justify-between">
