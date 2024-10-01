@@ -23,11 +23,14 @@ export function ContactForm() {
           variant="lead"
           className="mx-auto w-full lg:w-5/12 !text-gray-500"
         >
-          
+          test
         </Typography>
       </div>
       <div className="">
-        <Card shadow={true} className="container mx-auto border border-gray/50 ">
+        <Card
+          shadow={true}
+          className="container mx-auto border border-gray/50 "
+        >
           <CardBody className="lg:grid-cols-7 md:gap-10 w-full flex justify-center">
             <div className="w-full col-span-3 rounded-lg h-full py-8 p-5 md:p-16 bg-gradient-to-r from-indigo-500 via-purple-500 to-orange-300 ">
               <Typography variant="h4" color="white" className="mb-2">
@@ -37,6 +40,7 @@ export function ContactForm() {
                 variant="lead"
                 className="mx-auto mb-8 text-base !text-gray-500"
               >
+                test
               </Typography>
               <div className="flex gap-5">
                 <PhoneIcon className="h-6 w-6 text-white" />
@@ -51,9 +55,9 @@ export function ContactForm() {
                 </Typography>
               </div>
               <div className="flex mb-10 gap-5">
-                <Typography  className="h-5 w-6 text-white font-bold">
-                   Line
-                   </Typography>
+                <Typography className="h-5 w-6 text-white font-bold">
+                  Line
+                </Typography>
                 <Typography variant="h6" color="white" className="mb-2">
                   minz4151
                 </Typography>
@@ -70,7 +74,6 @@ export function ContactForm() {
                 </IconButton>
               </div>
             </div>
-            
           </CardBody>
         </Card>
       </div>
