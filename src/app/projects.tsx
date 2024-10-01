@@ -22,9 +22,9 @@ export function Projects() {
         </Typography>       
       </div>
       <Card shadow={true} className="container mx-auto border border-gray/50 ">
-      <CardBody className="grid grid-cols-1 lg:grid-cols-7 md:gap-10 w-full flex justify-center">
+      <CardBody className=" lg:grid-cols-7 md:gap-10 w-full flex justify-center">
       <div className="w-full flex justify-center ">
-      <div className="w-full h-fit    ">
+      <div className="w-full h-fit ">
 
 
 <Carousel loop={true} autoplay={true} className="rounded ">

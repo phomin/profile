@@ -28,7 +28,7 @@ export function ContactForm() {
       </div>
       <div className="">
         <Card shadow={true} className="container mx-auto border border-gray/50 ">
-          <CardBody className="grid grid-cols-1 lg:grid-cols-7 md:gap-10 w-full flex justify-center">
+          <CardBody className="lg:grid-cols-7 md:gap-10 w-full flex justify-center">
             <div className="w-full col-span-3 rounded-lg h-full py-8 p-5 md:p-16 bg-gradient-to-r from-indigo-500 via-purple-500 to-orange-300 ">
               <Typography variant="h4" color="white" className="mb-2">
                 Contact Information

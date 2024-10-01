@@ -11,7 +11,6 @@ import {
   RectangleStackIcon,
   UserCircleIcon,
   CommandLineIcon,
-  Squares2X2Icon,
   XMarkIcon,
   Bars3Icon,
 } from "@heroicons/react/24/solid";
@@ -41,10 +40,7 @@ function NavItem({ children, href }: NavItemProps) {
   return (
     <li>
       <div
-        as="a"
-        href={href || "#"}
-        target={href ? "_blank" : "_self"}
-        variant="paragraph"
+      
         color="gray"
         className="flex items-center gap-2 font-medium text-gray-900"
       >
