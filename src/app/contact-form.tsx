@@ -19,12 +19,6 @@ export function ContactForm() {
         <Typography variant="h1" color="blue-gray" className="mb-4">
           Contact Us
         </Typography>
-        <Typography
-          variant="lead"
-          className="mx-auto w-full lg:w-5/12 !text-gray-500"
-        >
-          test
-        </Typography>
       </div>
       <div className="">
         <Card
@@ -35,12 +29,6 @@ export function ContactForm() {
             <div className="w-full col-span-3 rounded-lg h-full py-8 p-5 md:p-16 bg-gradient-to-r from-indigo-500 via-purple-500 to-orange-300 ">
               <Typography variant="h4" color="white" className="mb-2">
                 Contact Information
-              </Typography>
-              <Typography
-                variant="lead"
-                className="mx-auto mb-8 text-base !text-gray-500"
-              >
-                test
               </Typography>
               <div className="flex gap-5">
                 <PhoneIcon className="h-6 w-6 text-white" />

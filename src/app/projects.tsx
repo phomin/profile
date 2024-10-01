@@ -66,12 +66,6 @@ export function Projects() {
         <Typography variant="h2" color="blue-gray" className="mb-4 ">
           GitHub
         </Typography>
-        <Typography
-          variant="h5"
-          color="blue-gray"
-          className="mb-4"
-          
-        >test</Typography>
       </div>
     </section>
   );
