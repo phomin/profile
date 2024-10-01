@@ -37,7 +37,6 @@ export function ContactForm() {
                 variant="lead"
                 className="mx-auto mb-8 text-base !text-gray-500"
               >
-                text
               </Typography>
               <div className="flex gap-5">
                 <PhoneIcon className="h-6 w-6 text-white" />
@@ -52,9 +51,11 @@ export function ContactForm() {
                 </Typography>
               </div>
               <div className="flex mb-10 gap-5">
-                <TicketIcon className="h-6 w-6 text-white" />
+                <Typography  className="h-5 w-6 text-white font-bold">
+                   Line
+                   </Typography>
                 <Typography variant="h6" color="white" className="mb-2">
-                  Open Support Ticket
+                  minz4151
                 </Typography>
               </div>
               <div className="flex items-center gap-5">
