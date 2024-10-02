@@ -12,8 +12,8 @@ import {
     
       return (
         <>
-        <div className="border-0 flex sticky top-0 z-50">
-        <div className="full flex items-start justify-start bg-black opacity-80">
+        <div className="border-0 flex sticky top-0 z-50 ">
+        <div className="full flex items-start justify-start bg-black opacity-80 w-full">
         <Typography  className="text-lg font-bold ml-8 text-white">
         My Web Portofolio
         </Typography>
